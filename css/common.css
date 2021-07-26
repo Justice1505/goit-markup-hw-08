@@ -1,0 +1,132 @@
+:root {
+  --main-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
+  --accent-color: #2196f3;
+  --title-color: #212121;
+  --under-color: #757575;
+  --other-color: #ffffff;
+  --bg-hf: #2f303a;
+  --color-adds: rgba(255, 255, 255, 0.6);
+}
+body {
+  font-family: var(--main-font);
+}
+.hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.logo {
+  text-decoration: none;
+  color: var(--title-color);
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.footer-dsg__adress-block__logo1 {
+  color: var(--accent-color);
+}
+.logo:hover,
+:focus {
+  color: var(--accent-color);
+}
+.site-navigation {
+  list-style: none;
+}
+.site-navigation .link {
+  text-decoration: none;
+  color: var(--title-color);
+}
+
+.site-navigation .link:hover,
+:focus {
+  color: var(--accent-color);
+}
+.contacts {
+  list-style: none;
+  text-decoration: none;
+}
+.contacts .link {
+  color: var(--under-color);
+  text-decoration: none;
+}
+.contacts .link:hover,
+:focus {
+  color: var(--accent-color);
+}
+.buttons {
+  list-style: none;
+}
+
+.work-examples {
+  list-style: none;
+}
+
+.key {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-color);
+}
+.key:hover,
+:focus {
+  background-color: var(--accent-color);
+  color: var(--other-color);
+  cursor: pointer;
+}
+
+.example1-title {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-color);
+}
+
+.example1-paragraph {
+  font-size: 16px;
+  line-height: 1.8;
+  letter-spacing: 0.03em;
+  color: var(--under-color);
+}
+
+.footer-dsg__adress-block__logo2 {
+  text-decoration: none;
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  color: var(--other-color);
+}
+.under {
+  background-color: var(--bg-hf);
+}
+.footer-dsg__contacts__our-contacts {
+  list-style: none;
+}
+
+.footer-dsg__contacts__street,
+.under-mail,
+.under-phone {
+  text-decoration: none;
+  color: var(--other-color);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
