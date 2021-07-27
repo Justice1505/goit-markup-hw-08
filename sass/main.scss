@@ -1,29 +1,30 @@
-// utils //
-@import './utils/variables';
-@import './utils/hidden';
-@import './utils/animation';
-// base //
-@import './base/common';
-@import './base/container';
-@import './base/section';
-// components //
-@import './components/contacts-header';
-@import './components/hero';
-@import './components/modal-btn';
-@import './components/features';
-@import './components/works';
-@import './components/our-team';
-@import './components/social-links-cards';
-@import './components/clients';
-@import './components/join-block';
-@import './components/subscribe-block';
-@import './components/portfolio-button';
-@import './components/portfolio-works';
-@import './components/overlay';
-@import './components/backdrop';
-@import './components/modal-form';
-@import './components/modal-window';
-// layouts //
-@import './layouts/header';
-@import './layouts/navigation';
-@import './layouts/footer';
+// UTILS
+@import "./utils/variables";
+@import "./utils/visually-hidden";
+
+// BASE
+@import "./base/base";
+@import "./base/section";
+@import "./base/container";
+
+// COMPONENTS
+@import "./components/mobile-menu";
+@import "./components/section-title";
+@import "./components/social-icons";
+@import "./components/backdrop";
+@import "./components/modal-window";
+@import "./components/modal-btn";
+@import "./components/modal-form";
+
+//LAYOUT
+@import "./layout/header";
+@import "./layout/hero";
+@import "./layout/whyus";
+@import "./layout/whatwedo";
+@import "./layout/aboutus";
+@import "./layout/regular-customers";
+@import "./layout/footer";
+
+// PORTFOLIO
+@import "./layout/hero-portfolio";
+@import "./layout/work-examples";
