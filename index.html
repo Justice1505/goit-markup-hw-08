@@ -459,19 +459,16 @@
         </div>
         <div class="footer-form-container">
             <h3 class="footer-modal-title">Подпишитесь на рассылку</h3>
-            <div class="form-button-container">
                 <form action="#" method="GET" class="footer-form"  name="footer-form" autocomplete="on" novalidate>
                 <label  >
                     <input class="email-form" type="email" name="email" placeholder="E-mail" required />
                 </label>
+                <button class="footer-submit-btn" type="submit">Подписаться
+                    <svg class="footer-btn-icon">
+                        <use href="./images/icons.svg#icon-send"></use>
+                    </svg>
+                </button>
             </form>
-            <button class="footer-submit-btn" type="submit">Подписаться
-                <svg class="footer-btn-icon">
-                    <use href="./images/icons.svg#icon-send"></use>
-                </svg>
-            </button>
-            </div>
-        </div>
         </div>
    </footer>
     <!-- Модальное окно -->
@@ -479,7 +476,6 @@
        <div class="modal">
            <form  method="GET" class="modal-form" name="modal-form" autocomplete="off">
                <h3 class="modal-title">Оставьте свои данные, мы вам перезвоним</h3>
-               
                 <label class="contact-label">
                     <span class="label-name">Имя</span> 
                     <span class="modal-form-input-wrapper">
