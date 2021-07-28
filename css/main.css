@@ -268,9 +268,12 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: var(--main-background-color);
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 4px;
+  width: 96vw;
+  max-width: 450px;
+  height: 96vh;
+  max-height: 610px;
+  overflow: auto;
+  background-color: #ffffff;
   padding: 40px;
 }
 
@@ -291,17 +294,11 @@ body {
   fill: var(--accent-color);
 }
 
-@media screen and (min-width: 480px) {
-  .modal {
-    max-width: 450px;
-    height: 609px;
-  }
-}
-
 @media screen and (min-width: 1200px) {
   .modal {
     max-width: 528px;
     height: 581px;
+    overflow: unset;
   }
 }
 
@@ -638,7 +635,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   background-color: var(--alt-background-color);
-  background-image: linear-gradient(var(--overlay-hero-bg-color), var(--overlay-hero-bg-color)), url("../images/hero/bg-mob.webp"), url("../images/hero/bg-mob.jpg");
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero/bg-mob.webp"), url("../images/hero/bg-mob.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
